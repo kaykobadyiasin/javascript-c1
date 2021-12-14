@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+
+    <!--Lato cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet"> 
+    <!--Lato cdn -->
+    <!-- Roboto cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <!-- Roboto cdn -->
+    <!-- fonts -->
+
+    <!-- fontwesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+
+    <!-- CSS Links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>JavaScript 1</title>
+  </head>
+  <body onload="windDows()">
+
+    <div class="container">
+      <h1 class="text-info">Mouse click to change Images</h1>
+
+      <button type="button" class="btn btn-success" onmouseout="imgOne()">Image 1</button>
+      <button type="button" class="btn btn-success" onmouseout="imgTwo()">Image 2</button>
+      <br><br>
+      <img id="img" src="images/js.jpg">
+
+    </div>
+
+    <div class="container">
+      <h1 class="text-info">Mouse click to change text</h1>
+
+      <button type="button" class="btn btn-success" onclick="textChange()">Click Me</button>
+      
+      <p id="p">My country name is Bangladesh</p>
+
+      <br>
+
+      <button type="button" class="btn btn-danger" onclick="welcome()">Alert</button>
+    </div>
+
+
+    <div class="container">
+      <h1 class="text-info">Mouse click to change text</h1>
+
+      <button type="button" class="btn btn-success" onclick="textMultiChange()">Click Me</button>
+      
+      <p class="n">My country name is Bangladesh</p>
+      <p class="n">My country name is Bangladesh</p>
+      <p class="n">My country name is Bangladesh</p>
+      <p class="n">My country name is Bangladesh</p>
+      <p class="n">My country name is Bangladesh</p>
+
+      <button type="button" class="btn btn-primary" onclick="docWrite()">How</button>
+      <button type="button" class="btn btn-info" onclick="conLog()">Console</button>
+    </div>
+
+
+
+  <!--JS links -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <!--JS links -->
+  </body>
+</html>
